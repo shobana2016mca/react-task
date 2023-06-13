@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+body {
+  background-color: #e6e6e6;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.formInput {
+  border-color: #e6e6e6;
+  border-radius: 6px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mybtn {
+  position: absolute;
+  right: 35px;
+  margin-top: 70px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.label {
+  color: #212121;
 }
-
-.App-link {
-  color: #61dafb;
+.sub-container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  position: relative;
+  margin-top: 30px;
+  border: 1px solid #e6e6e6;
+  height: 564px;
+  max-width: 577px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputfield {
+  margin-top: 4px;
+  border-radius: 7px;
+}
+.radioButton {
+  width: 25px;
+  margin-right: 4px;
+  margin-bottom: 10px;
+  color: #fafafa;
+}
+.ux-ui-pamplate {
+  background-color: #ffffff;
+  width: 830px;
+  height: 320px;
+  padding: 16px 24px 16px 24px;
+  border-radius: 10px;
+}
+.ux-ui-innerform {
+  margin: 0px 425px 0px 0px;
+}
+.ux-ui-innerform-lables {
+  margin-left: 8px;
 }
